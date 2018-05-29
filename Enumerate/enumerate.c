@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-enum week { sunday, monday, tuesday, wednesday, thursday, friday, saturday };
+typedef enum{ sunday, monday, tuesday, wednesday, thursday, friday, saturday }week;
 
 int main()
 {
-    enum week today;
+    week today;
     today = wednesday;
     printf("Day %d",today+1);
     return 0;
