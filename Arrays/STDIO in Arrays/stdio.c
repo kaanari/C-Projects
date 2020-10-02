@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int main(){
+void main(){
 	int num,i=0;
 	printf("How many integer will you enter?\n")
 	scanf("%d",&num);
