@@ -5,7 +5,7 @@ int max;
 
 int main()
 {	
-	printf("Enter the size of Stack : ");
+	printf("Enter the size of Stack : "); //user can enter the size of the stack
 	scanf("%d",&max);
 	//... create stack	
 	int stack[max],data;
